@@ -47,6 +47,8 @@ public class Practice22 {
     }
 
     public static void printTab(int count) {
-        System.out.print("    ".repeat(Math.max(0, count)));
+        for (int i = 0; i < count; i++) {
+            System.out.print("  ");
+        }
     }
 }
